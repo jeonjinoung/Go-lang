@@ -207,12 +207,21 @@ server
 이렇게 서버 및 백단을 구성을 해놓고 client에서 각 라우터를 api형식으로 불어와준다.
 일단 로그인과 로그아웃 회원정보변경등의 값을 불러오려면 client의 프론트단을 구별을 먼저해줘야한다.                                                                                                                                     
 로그인 서버구성 [Login]
-Client -> pages -> Login.jsx
+
 <img width="400" alt="44" src="https://user-images.githubusercontent.com/89626182/143202567-a90e13e9-e44e-4d4c-bc2c-312c1199f281.png">
+
+Client -> pages -> Login.jsx
+                                                                                                                 
 <img width="400" alt="44" src="https://user-images.githubusercontent.com/89626182/143202961-08cae5ad-431f-4cf0-92ad-aa2dda25fafe.png">
 
+                                                                                                                 
                            
 로그아웃 [Logout]
+
+<img width="400" alt="44" src="https://user-images.githubusercontent.com/89626182/143204698-deb3c7eb-6e5c-41cc-97d2-51b8febd0b0a.png">
+                                                                                                                 Client -> component -> header -> Menu
+                                                                                                                 
+<img width="400" alt="44" src="https://user-images.githubusercontent.com/89626182/143204991-1a45ca39-834e-48ba-9d18-5f60751152f4.png">
 
 
 회원정보변경 [ProfileEdit]
