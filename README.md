@@ -230,6 +230,7 @@ server
 일단 로그인과 로그아웃 회원정보변경등의 값을 불러오려면 client의 프론트단을 구별을 먼저해줘야한다.                     
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 **Client front**
 
 로그인 페이지 [Login]
@@ -268,7 +269,7 @@ client -> component -> profile -> info[Editprofile]
 
 <img width="400" alt="44" src="https://user-images.githubusercontent.com/89626182/143238414-352f34a1-7759-463a-aaad-83360e50368c.png">
 
-<img width="400" alt="44" src="hhttps://user-images.githubusercontent.com/89626182/143238564-904bcf57-5957-422c-aa15-a54209779aac.png">
+<img width="400" alt="44" src="https://user-images.githubusercontent.com/89626182/143238564-904bcf57-5957-422c-aa15-a54209779aac.png">
 
 <img width="400" alt="44" src="https://user-images.githubusercontent.com/89626182/143238632-a8ed4caf-27ab-4c11-8605-83a6ce915761.png">
 
@@ -277,15 +278,20 @@ client -> component -> profile -> info[Editprofile]
 ◈프로필수정 기능 입니다. 메뉴에있는 프로필 클릭을하면 onclick이벤트로인해 버튼을 눌렀을시 아이디값을 추적하고 아이디값에 맞는 프로필의 페이지로 이동한다 이렇게 되면 info페이지로 넘어오게된다 거기에서 EditProfile 계정수정버튼을 누르면
 아이지 계정의 값이 수정되는것을 알 수 있다.
 
+
+
+
 알람기능
 
 <img width="400" alt="44" src="https://user-images.githubusercontent.com/89626182/143227173-f047ad70-d15e-4c40-8b1b-6d89e74fea1e.png">
 
 포스팅
+
 <img width="400" alt="44" src="https://user-images.githubusercontent.com/89626182/143227661-47537eeb-599b-4db0-9afd-acda9e2fc20e.png">
 <img width="400" alt="44" src="https://user-images.githubusercontent.com/89626182/143227849-692ba1ac-9cc2-47d8-ae01-83937c5d926e.png">
 
 팔로우
+
 follow 전
 
 <img width="400" alt="44" src="https://user-images.githubusercontent.com/89626182/143228000-48ae2891-351c-4113-847f-c1083e9dbc0a.png">
