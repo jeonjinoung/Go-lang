@@ -182,8 +182,42 @@ AWS의 EC2를 활용하여 배포를 하였습니다
 
 서버 연결하기 전 SCREEN을 활용 cmd창을 닫거나 컴퓨터를 종료하여도 서버가 계속 돌아가게 유지했습니다
 
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+일단 서버단 코드구성은 아래 이미지와 같다.
+<img width="400" alt="44" src="https://user-images.githubusercontent.com/89626182/143200197-1ee58e04-893b-4486-a10b-315c1ecc17c8.png>
+
+아래의 기능에 공통적으로 설명이 들어가는것은 Controllers models routes server가 들어갈것이다.
+Controllers
+                   
+<img width="400" alt="44" src="https://user-images.githubusercontent.com/89626182/143200795-4107aa05-a85d-4e47-9e7c-efa0fe27729a.png>
+
+models
+
+<img width="400" alt="44" src="https://user-images.githubusercontent.com/89626182/143201022-1e4bb97a-abc0-40f2-bcb3-95054eba831c.png>
+                               
+routes
+                               
+<img width="400" alt="44" src="https://user-images.githubusercontent.com/89626182/143201141-ad0ab66b-800f-4068-8efc-37e7e3a98dcd.png>
+
+server
+
+<img width="400" alt="44" src="https://user-images.githubusercontent.com/89626182/143201601-2f8f2f61-d13d-4bba-a37e-661dffbf32eb.png>
+
+                  
+로그인 서버구성 [Login]
+
+                           
+로그아웃 [Logout]
 
 
+회원정보변경 [ProfileEdit]
+
+
+알람기능
+
+포스팅
+
+팔로우
 
 
 
