@@ -246,20 +246,32 @@ Client -> pages -> Login.jsx
 
 <img width="400" alt="44" src="https://user-images.githubusercontent.com/89626182/143237166-98f384d2-dd8b-4a95-a1eb-7e3d9ee7d208.png">
 
+<img width="400" alt="44" src="https://user-images.githubusercontent.com/89626182/143237642-2ba87dc4-37c2-4d30-9101-bcc190d8f684.png">
+
 ◈회원가입 페이지 입니다. 텍스트 안에 값을 넣어주고 그값이 맞는지 유효성검사를 통해 조건문을 달아주었고 그값이 맞다면 다음 홈페이지 화면으로 넘어가도록 하였습니다.
                          
 로그아웃 [Logout]
 
 <img width="400" alt="44" src="https://user-images.githubusercontent.com/89626182/143204698-deb3c7eb-6e5c-41cc-97d2-51b8febd0b0a.png">
-                                                                                                                 Client -> component -> header -> Menu
+                                                                                                             Client -> component -> header -> Menu
                                                                                                                  
 <img width="400" alt="44" src="https://user-images.githubusercontent.com/89626182/143204991-1a45ca39-834e-48ba-9d18-5f60751152f4.png">
-◈메인페이지 헤더입니다. 해더안에 메뉴에 로그아웃 버튼이 있는데 이 로그아웃 버튼을 누르면 iD값을 초기화하는것을 구현했습니다.
+
+◈로그아웃 기능 입니다. 메뉴에있는 로그아웃을 클릭을하면 onclick이벤트로인해 버튼을 눌렀을시 아이디값을 추적하고 그값을 공란 빈칸으로 만들어주고 그리고 페이지는 홈페이지인 로그인페이지로 넘어가도록 해두었다.
 
 
 회원정보변경 [EditProfileEdit]
                                                                                                                 
 client -> component -> profile -> info[Editprofile]
+
+<img width="400" alt="44" src="https://user-images.githubusercontent.com/89626182/143238277-fba1a632-e714-4823-bcea-ddf1cb22bc69.png">
+
+<img width="400" alt="44" src="https://user-images.githubusercontent.com/89626182/143238414-352f34a1-7759-463a-aaad-83360e50368c.png">
+
+<img width="400" alt="44" src="hhttps://user-images.githubusercontent.com/89626182/143238564-904bcf57-5957-422c-aa15-a54209779aac.png">
+
+<img width="400" alt="44" src="https://user-images.githubusercontent.com/89626182/143238632-a8ed4caf-27ab-4c11-8605-83a6ce915761.png">
+
 <img width="400" alt="44" src="https://user-images.githubusercontent.com/89626182/143223226-96fff0fa-5061-49b4-8991-ef44a3101943.png">
 
 
