@@ -205,15 +205,21 @@ AWS의 EC2를 활용하여 배포를 하였습니다
 
 아래의 기능에 공통적으로 설명이 들어가는것은 Controllers models routes server가 들어갈것이다.
 Controllers
-                   
+
+Controllers -> auth.js = login 부분
+
 <img width="400" alt="44" src="https://user-images.githubusercontent.com/89626182/143200795-4107aa05-a85d-4e47-9e7c-efa0fe27729a.png">
 
 models
 
+models -> user.js
+
 <img width="400" alt="44" src="https://user-images.githubusercontent.com/89626182/143201022-1e4bb97a-abc0-40f2-bcb3-95054eba831c.png">
                                
 routes
-                               
+     
+routes -> authRouter.js부분
+
 <img width="400" alt="44" src="https://user-images.githubusercontent.com/89626182/143201141-ad0ab66b-800f-4068-8efc-37e7e3a98dcd.png">
 
 server
@@ -221,8 +227,12 @@ server
 <img width="400" alt="44" src="https://user-images.githubusercontent.com/89626182/143201601-2f8f2f61-d13d-4bba-a37e-661dffbf32eb.png">
 
 이렇게 서버 및 백단을 구성을 해놓고 client에서 각 라우터를 api형식으로 불어와준다.
-일단 로그인과 로그아웃 회원정보변경등의 값을 불러오려면 client의 프론트단을 구별을 먼저해줘야한다.                                                                                                                                     
-로그인 서버구성 [Login]
+일단 로그인과 로그아웃 회원정보변경등의 값을 불러오려면 client의 프론트단을 구별을 먼저해줘야한다.                     
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////
+**Client front**
+
+로그인 페이지 [Login]
 
 <img width="400" alt="44" src="https://user-images.githubusercontent.com/89626182/143202567-a90e13e9-e44e-4d4c-bc2c-312c1199f281.png">
 
@@ -230,8 +240,14 @@ Client -> pages -> Login.jsx
                                                                                                                  
 <img width="400" alt="44" src="https://user-images.githubusercontent.com/89626182/143202961-08cae5ad-431f-4cf0-92ad-aa2dda25fafe.png">
 ◈로그인 페이지 입니다. 텍스트 안에 값을 넣어주고 그값이 맞으면 홈페이지 화면으로 넘어가도록 하였습니다.
-                                                                                                                 
-                           
+
+
+회원가입 페이지 [Register]
+
+<img width="400" alt="44" src="https://user-images.githubusercontent.com/89626182/143237166-98f384d2-dd8b-4a95-a1eb-7e3d9ee7d208.png">
+
+◈회원가입 페이지 입니다. 텍스트 안에 값을 넣어주고 그값이 맞는지 유효성검사를 통해 조건문을 달아주었고 그값이 맞다면 다음 홈페이지 화면으로 넘어가도록 하였습니다.
+                         
 로그아웃 [Logout]
 
 <img width="400" alt="44" src="https://user-images.githubusercontent.com/89626182/143204698-deb3c7eb-6e5c-41cc-97d2-51b8febd0b0a.png">
@@ -264,6 +280,9 @@ follow 전
 <img width="400" alt="44" src="https://user-images.githubusercontent.com/89626182/143228089-34e993a6-5969-4a85-a68f-efc277a879e6.png">
 <img width="400" alt="44" src="https://user-images.githubusercontent.com/89626182/143228141-52b06736-029c-4e81-a4e6-e0a53b3cc6c2.png">
 
+
+**여기까지가 제가 만진부분입니다.**
+/////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 # 상세 설명
 전체 코드 : [코드](https://github.com/dongnycklee/heavysmoker/tree/main/main)
