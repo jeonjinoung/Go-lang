@@ -292,10 +292,6 @@ Client -> components -> Menu -> nav-item dropdown
 ◈알림 기능 입니다. 헤더메뉴에있는 알림 클릭을하면 onclick이벤트로인해 버튼을 눌렀을시 auth값을 추적하고 auth값에 맞는 프로필의 알림이 서치된다. 그러면 위의 내용과 같이 누가 나의 포스트의 댓글을 달았는지 누가 메세지를 하였는지 누가 나를 팔로우했는지에 대해서 알림을 확인할 수 있다.
 
 
-
-
-
-
 포스트와 스테이터스 [posts, status]
 
 포스트는 내가공유한글과 상대방이공유한그를 보는 부분이고
@@ -322,6 +318,16 @@ Client -> Component -> posts.jsx -> CardBody, CardFooter, CardHeader로 나눔
 
 팔로우
 
+client -> component -> RightSideBar[보여지는페이지]
+
+RightSideBar에서 클릭하면 redux/action에서의 함수정의한것을 Follow버튼 컴포넌트를 실행시켜주어서 UserCard의 정보를 컴포넌트를 가져와서 그값을 저장해준다. 그렇게되면 서로 팔로우 했는지 안했는지 알 수 있다.
+
+FollowBtn.jsx
+<img width="400" alt="44" src="https://user-images.githubusercontent.com/89626182/143259066-442ec6c6-2e18-4971-ac65-e4d2cd799a0d.png">
+
+UserCard.jsx
+<img width="400" alt="44" src="https://user-images.githubusercontent.com/89626182/143259169-17cde38d-85fb-400a-94c6-0e038586be3f.png">
+
 follow 전
 
 <img width="400" alt="44" src="https://user-images.githubusercontent.com/89626182/143228000-48ae2891-351c-4113-847f-c1083e9dbc0a.png">
@@ -333,6 +339,20 @@ follow 전
 
 **여기까지가 제가 만진부분입니다.**
 /////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 # 상세 설명
 전체 코드 : [코드](https://github.com/dongnycklee/heavysmoker/tree/main/main)
