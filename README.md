@@ -183,6 +183,7 @@ AWS의 EC2를 활용하여 배포를 하였습니다
 서버 연결하기 전 SCREEN을 활용 cmd창을 닫거나 컴퓨터를 종료하여도 서버가 계속 돌아가게 유지했습니다
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 일단 서버단 코드구성은 아래 이미지와 같다.
 <img width="400" alt="44" src="https://user-images.githubusercontent.com/89626182/143200197-1ee58e04-893b-4486-a10b-315c1ecc17c8.png>
 
@@ -203,8 +204,12 @@ server
 
 <img width="400" alt="44" src="https://user-images.githubusercontent.com/89626182/143201601-2f8f2f61-d13d-4bba-a37e-661dffbf32eb.png">
 
-                  
+이렇게 서버 및 백단을 구성을 해놓고 client에서 각 라우터를 api형식으로 불어와준다.
+일단 로그인과 로그아웃 회원정보변경등의 값을 불러오려면 client의 프론트단을 구별을 먼저해줘야한다.                                                                                                                                     
 로그인 서버구성 [Login]
+Client -> pages -> Login.jsx
+<img width="400" alt="44" src="https://user-images.githubusercontent.com/89626182/143202567-a90e13e9-e44e-4d4c-bc2c-312c1199f281.png">
+<img width="400" alt="44" src="https://user-images.githubusercontent.com/89626182/143202961-08cae5ad-431f-4cf0-92ad-aa2dda25fafe.png">
 
                            
 로그아웃 [Logout]
