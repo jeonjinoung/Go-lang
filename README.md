@@ -205,7 +205,7 @@ AWS의 EC2를 활용하여 배포를 하였습니다
 
 
 일단 서버단 코드구성은 아래 이미지와 같다.
-<img width="400" alt="44" src="https://user-images.githubusercontent.com/89626182/143200197-1ee58e04-893b-4486-a10b-315c1ecc17c8.png>
+<img width="400" alt="44" src="https://user-images.githubusercontent.com/89626182/143200197-1ee58e04-893b-4486-a10b-315c1ecc17c8.png">
 
 아래의 기능에 공통적으로 설명이 들어가는것은 Controllers models routes server가 들어갈것이다.
 Controllers
