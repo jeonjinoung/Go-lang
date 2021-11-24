@@ -302,29 +302,30 @@ Client -> components -> Menu -> nav-item dropdown
 
 스테이터스는 내가 공유한부분을 보여주는 부분입니다.
 
-Client -> Component -> posts.jsx -> CardBody, CardFooter, CardHeader로 나눔
 
-Client -> Component -> Status.jsx
 
+Client -> Component -> Status.jsx 공유하는부분!
 
 <img width="400" alt="44" src="https://user-images.githubusercontent.com/89626182/143227661-47537eeb-599b-4db0-9afd-acda9e2fc20e.png">
 
+<img width="400" alt="44" src="https://user-images.githubusercontent.com/89626182/143256848-56c0a06f-2afc-4ae5-8386-875f6eadec4e.png">
+
+공유한 부분을 보여주는 부분 [Post.jsx]
+
+Client -> Component -> posts.jsx -> CardBody, CardFooter, CardHeader로 나눔
+
 <img width="400" alt="44" src="https://user-images.githubusercontent.com/89626182/143227849-692ba1ac-9cc2-47d8-ae01-83937c5d926e.png">
 
+<img width="400" alt="44" src="https://user-images.githubusercontent.com/89626182/143256740-04e2b21b-e79f-4564-a61f-ca9c69c3dac7.png">
 
-◈ 포스트 기능 입니다. 헤더메뉴에있는 알림 클릭을하면 onclick이벤트로인해 버튼을 눌렀을시 auth값을 추적하고 auth값에 맞는 프로필의 알림이 서치된다. 그러면 위의 내용과 같이 누가 나의 포스트의 댓글을 달았는지 누가 메세지를 하였는지 누가 나를 팔로우했는지에 대해서 알림을 확인할 수 있다.
-
-
-
-
-
+◈ Status 기능 입니다. 헤더메뉴에있는 공유하는 input을 클릭하면 onclick이벤트로인해 버튼을 눌렀을시 auth값을 추적하고 status 텍스트에 맞는 이미지와 그리고 글을 값을 저장해주고 그값을 posts에 넘긴다. 그리고 posts.jsx에서 그값을 받고 postcard header,body,footer부분으로 부위를 나뉘어 표현해주었다.이로써 우리는 여러사람의 생각과 글을 볼수도 있었고 나의 글과 사진을 공유하기도 가능했다.
 
 팔로우
 
 follow 전
 
 <img width="400" alt="44" src="https://user-images.githubusercontent.com/89626182/143228000-48ae2891-351c-4113-847f-c1083e9dbc0a.png">
-                                                                                                                 follow 후
+                                                                                                     follow 후
 
 <img width="400" alt="44" src="https://user-images.githubusercontent.com/89626182/143228089-34e993a6-5969-4a85-a68f-efc277a879e6.png">
 <img width="400" alt="44" src="https://user-images.githubusercontent.com/89626182/143228141-52b06736-029c-4e81-a4e6-e0a53b3cc6c2.png">
