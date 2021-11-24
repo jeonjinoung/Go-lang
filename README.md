@@ -274,6 +274,8 @@ client -> component -> profile -> info[Editprofile]
 
 <img width="400" alt="44" src="https://user-images.githubusercontent.com/89626182/143223226-96fff0fa-5061-49b4-8991-ef44a3101943.png">
 
+◈프로필수정 기능 입니다. 메뉴에있는 프로필 클릭을하면 onclick이벤트로인해 버튼을 눌렀을시 아이디값을 추적하고 아이디값에 맞는 프로필의 페이지로 이동한다 이렇게 되면 info페이지로 넘어오게된다 거기에서 EditProfile 계정수정버튼을 누르면
+아이지 계정의 값이 수정되는것을 알 수 있다.
 
 알람기능
 
