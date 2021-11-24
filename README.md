@@ -283,11 +283,21 @@ client -> component -> profile -> info[Editprofile]
 
 알람기능
 
-<img width="400" alt="44" src="https://user-images.githubusercontent.com/89626182/143227173-f047ad70-d15e-4c40-8b1b-6d89e74fea1e.png">
+<img width="400" alt="44" src="https://user-images.githubusercontent.com/89626182/143239565-bc4abf2d-fd79-44cc-86b7-dec43ec10361.png">
+
+<img width="400" alt="44" src="https://user-images.githubusercontent.com/89626182/143239761-876fa4b5-d2c5-4558-89fe-057b3843ab67.png">
+
+Client -> components -> Menu -> nav-item dropdown
+
+<img width="400" alt="44" src="https://user-images.githubusercontent.com/89626182/143240572-15609069-9e8a-4355-a6a1-1efe6d36567d.png">
+
+◈알림 기능 입니다. 헤더메뉴에있는 알림 클릭을하면 onclick이벤트로인해 버튼을 눌렀을시 auth값을 추적하고 auth값에 맞는 프로필의 알림이 서치된다. 그러면 위의 내용과 같이 누가 나의 포스트의 댓글을 달았는지 누가 메세지를 하였는지 누가 나를 팔로우했는지에 대해서 알림을 확인할 수 있다.
+
 
 포스팅
 
 <img width="400" alt="44" src="https://user-images.githubusercontent.com/89626182/143227661-47537eeb-599b-4db0-9afd-acda9e2fc20e.png">
+
 <img width="400" alt="44" src="https://user-images.githubusercontent.com/89626182/143227849-692ba1ac-9cc2-47d8-ae01-83937c5d926e.png">
 
 팔로우
