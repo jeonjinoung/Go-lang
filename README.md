@@ -279,8 +279,6 @@ client -> component -> profile -> info[Editprofile]
 아이지 계정의 값이 수정되는것을 알 수 있다.
 
 
-
-
 알람기능
 
 <img width="400" alt="44" src="https://user-images.githubusercontent.com/89626182/143239565-bc4abf2d-fd79-44cc-86b7-dec43ec10361.png">
@@ -294,11 +292,32 @@ Client -> components -> Menu -> nav-item dropdown
 ◈알림 기능 입니다. 헤더메뉴에있는 알림 클릭을하면 onclick이벤트로인해 버튼을 눌렀을시 auth값을 추적하고 auth값에 맞는 프로필의 알림이 서치된다. 그러면 위의 내용과 같이 누가 나의 포스트의 댓글을 달았는지 누가 메세지를 하였는지 누가 나를 팔로우했는지에 대해서 알림을 확인할 수 있다.
 
 
-포스팅
+
+
+
+
+포스트와 스테이터스 [posts, status]
+
+포스트는 내가공유한글과 상대방이공유한그를 보는 부분이고
+
+스테이터스는 내가 공유한부분을 보여주는 부분입니다.
+
+Client -> Component -> posts.jsx -> CardBody, CardFooter, CardHeader로 나눔
+
+Client -> Component -> Status.jsx
+
 
 <img width="400" alt="44" src="https://user-images.githubusercontent.com/89626182/143227661-47537eeb-599b-4db0-9afd-acda9e2fc20e.png">
 
 <img width="400" alt="44" src="https://user-images.githubusercontent.com/89626182/143227849-692ba1ac-9cc2-47d8-ae01-83937c5d926e.png">
+
+
+◈ 포스트 기능 입니다. 헤더메뉴에있는 알림 클릭을하면 onclick이벤트로인해 버튼을 눌렀을시 auth값을 추적하고 auth값에 맞는 프로필의 알림이 서치된다. 그러면 위의 내용과 같이 누가 나의 포스트의 댓글을 달았는지 누가 메세지를 하였는지 누가 나를 팔로우했는지에 대해서 알림을 확인할 수 있다.
+
+
+
+
+
 
 팔로우
 
