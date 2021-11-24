@@ -182,7 +182,27 @@ AWS의 EC2를 활용하여 배포를 하였습니다
 
 서버 연결하기 전 SCREEN을 활용 cmd창을 닫거나 컴퓨터를 종료하여도 서버가 계속 돌아가게 유지했습니다
 
+
+
+
+
+
+
+
+
+
+
+
+
 ////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+**여기서 부터 시작했습니다.!!**
+---------------------------------
+
+
+
+
+
 
 일단 서버단 코드구성은 아래 이미지와 같다.
 <img width="400" alt="44" src="https://user-images.githubusercontent.com/89626182/143200197-1ee58e04-893b-4486-a10b-315c1ecc17c8.png>
@@ -213,7 +233,7 @@ server
 Client -> pages -> Login.jsx
                                                                                                                  
 <img width="400" alt="44" src="https://user-images.githubusercontent.com/89626182/143202961-08cae5ad-431f-4cf0-92ad-aa2dda25fafe.png">
-
+◈로그인 페이지 입니다. 텍스트 안에 값을 넣어주고 그값이 맞으면 홈페이지 화면으로 넘어가도록 하였습니다.
                                                                                                                  
                            
 로그아웃 [Logout]
@@ -222,17 +242,31 @@ Client -> pages -> Login.jsx
                                                                                                                  Client -> component -> header -> Menu
                                                                                                                  
 <img width="400" alt="44" src="https://user-images.githubusercontent.com/89626182/143204991-1a45ca39-834e-48ba-9d18-5f60751152f4.png">
+◈메인페이지 헤더입니다. 해더안에 메뉴에 로그아웃 버튼이 있는데 이 로그아웃 버튼을 누르면 iD값을 초기화하는것을 구현했습니다.
 
 
-회원정보변경 [ProfileEdit]
+회원정보변경 [EditProfileEdit]
+                                                                                                                
+client -> component -> profile -> info[Editprofile]
+<img width="400" alt="44" src="https://user-images.githubusercontent.com/89626182/143223226-96fff0fa-5061-49b4-8991-ef44a3101943.png">
 
 
 알람기능
 
+<img width="400" alt="44" src="https://user-images.githubusercontent.com/89626182/143227173-f047ad70-d15e-4c40-8b1b-6d89e74fea1e.png">
+
 포스팅
+<img width="400" alt="44" src="https://user-images.githubusercontent.com/89626182/143227661-47537eeb-599b-4db0-9afd-acda9e2fc20e.png">
+<img width="400" alt="44" src="https://user-images.githubusercontent.com/89626182/143227849-692ba1ac-9cc2-47d8-ae01-83937c5d926e.png">
 
 팔로우
+follow 전
 
+<img width="400" alt="44" src="https://user-images.githubusercontent.com/89626182/143228000-48ae2891-351c-4113-847f-c1083e9dbc0a.png">
+                                                                                                                 follow 후
+
+<img width="400" alt="44" src="https://user-images.githubusercontent.com/89626182/143228089-34e993a6-5969-4a85-a68f-efc277a879e6.png">
+<img width="400" alt="44" src="https://user-images.githubusercontent.com/89626182/143228141-52b06736-029c-4e81-a4e6-e0a53b3cc6c2.png">
 
 
 # 상세 설명
