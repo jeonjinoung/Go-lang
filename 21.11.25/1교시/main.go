@@ -10,9 +10,8 @@ package main
 //type name struct{
 
 import "fmt"
-	
 
-
+//구조체 선언
 type Student struct{
 		Name string
 		Age int
@@ -49,12 +48,15 @@ func main() {
 
 
 	var st Student
-	st.Age = 15
-	st.Number = 10
 	st.Name = "캡틴 아메리카도"
+	st.Age = 15
 	st.Score = 3.14
+	st.Number = 10
 
 	fmt.Println(st)
+
+	////////////////////////////////////////////
+	//구조체의 필드요소를 하나씩 빼내는 방법 
 	fmt.Println("학생이름: ", st.Name)
 	fmt.Println("학생이름: ", st.Age)
 	fmt.Println("학생이름: ", st.Number)
