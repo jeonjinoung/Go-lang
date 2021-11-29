@@ -9,17 +9,17 @@ type Data struct{
 }
 //복사하고있는것이다. Data변수값이 모두 복사가 된다. -> 다른공간으로 배정된다??
 
-func ChangeData(d Data)  {
-	//매개변수로 Data를 받았다??
+// func ChangeData(d Data)  {
+// 	//매개변수로 Data를 받았다??
 	
-	d.value = 100
-	//아규먼트는 d라고생각하면된다.
-	d.data[100] = 200
-	//data는 다른위치에 있다고생각하면된다.
+// 	d.value = 100
+// 	//아규먼트는 d라고생각하면된다.
+// 	d.data[100] = 200
+// 	//data는 다른위치에 있다고생각하면된다.
 
-}
-//매개변수로 Data 포인터를 받는다.
-//포인터 변수다.!!
+// }
+// //매개변수로 Data 포인터를 받는다.
+// //포인터 변수다.!!
 func PointerChange(d *Data){
 	
 	d.value = 100

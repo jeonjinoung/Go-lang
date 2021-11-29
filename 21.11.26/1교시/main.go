@@ -61,11 +61,6 @@ func main() {
 	fmt.Println("string4의 길이",len(string4)) // 길이 12 // 문자열의 바이트 길이가 반환된다.
 	fmt.Println("runes1의 길이",len(runes1)) //길이 8 // 각 글자들로 이루어진 배열로 반환 H1 e1 l1 l1 o1 sp1 월1 드1
 
-	
-
-
-
-
 }
 
 /*
