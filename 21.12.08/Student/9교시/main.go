@@ -20,7 +20,7 @@ func main() {
 	//range키워드를 사용하여 map을 돌리는데
 	//배열이라 슬라이스 했을때는 
 	
-	//_ = amp v = value다 map에서는
+	//_ = map v = value다 map에서는
 	//for _, v := range v {
 	for k, v := range m {
 		fmt.Println(k, v)	

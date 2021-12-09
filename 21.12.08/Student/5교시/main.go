@@ -6,11 +6,11 @@ import (
 )
 
 /////////////////////////////////////////////////////////////////////////////
-// type Element struct {
-// 	Value interface{} //데이터를 저장
-// 	Next  *Element    //다음 요소의 주소를 저장
-// 	Prev  *Element    //이전 요소의 주소를 저장
-// }
+type Element struct {
+	Value interface{} //데이터를 저장
+	Next  *Element    //다음 요소의 주소를 저장
+	Prev  *Element    //이전 요소의 주소를 저장
+}
 /////////////////////////////////////////////////////////////////////////////
 type Queue struct{
 	v *list.List
@@ -19,7 +19,7 @@ type Queue struct{
 func (q* Queue)push(val interface{}){
 	q.v.PushBack(val)
 }
-//대기열 은행은행 
+//대기열 은행은행
 func (q* Queue) Pop()interface{}{
 	front := q.v.Front()
 	if front != nil{
@@ -72,9 +72,10 @@ func main() {
 		}
 }
 
-/*
-큐 Javascript로 했는데
-큐 : 피포구조 먼저 입력한녀섴이 먼저나온다. 응가응강
+
+// /*
+// 큐 Javascript로 했는데
+// 큐 : 피포구조 먼저 입력한녀섴이 먼저나온다. 응가응강
 
 
-*/
+// */

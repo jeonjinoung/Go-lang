@@ -14,18 +14,18 @@ func main() {
 		r.Value = 'A' + i
 		r=r.Next()
 	}
-	////////////////////////////////////////
-	//역순
-	for k := 0; k < n; k++ {
-		fmt.Printf("%c",r.Value)
-		r=r.Prev()
-	}
 	///////////////////////////////////////
 	//정순
 	// for k := 0; k < n; k++ {
 	// 	fmt.Printf("%c",r.Value)
 	// 	r=r.Next()
 	// }
+	////////////////////////////////////////
+	//역순
+	for k := 0; k < n; k++ {
+		fmt.Printf("%c",r.Value)
+		r=r.Prev()
+	}
 }
 
 /*

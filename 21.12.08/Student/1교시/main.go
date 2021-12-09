@@ -29,10 +29,8 @@ func main() {
 	t:=a.(변경하려는 타입)
 	*/
 
-	/*실행함
 	s := &Student{100}//*Student type변수 s
 	PrintAge(s) //변수 S를 인터페이스 인수로 PrintAge()부름
-	*/
 
 	/*실행안함
 	var stringer Stringer
